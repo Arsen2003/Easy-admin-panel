@@ -30,6 +30,8 @@ btnAdd.addEventListener('click', function () {
     return
   }
   //   console.log(newProduct);
+
+  
   let products = JSON.parse(localStorage.getItem('products')) || []
   products.push(newProduct)
 
